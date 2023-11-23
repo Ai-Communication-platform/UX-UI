@@ -1,4 +1,4 @@
-[Applying] UX/UI design -> Flutter 
+[Applying] UX/UI design(Figma) -> Flutter 
 
 ---
                     
