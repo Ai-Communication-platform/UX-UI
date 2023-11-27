@@ -3,6 +3,10 @@ import 'package:eunbyul_s_application104/widgets/app_bar/appbar_title_image.dart
 import 'package:eunbyul_s_application104/widgets/app_bar/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
+
+// [main page] 수정
+
+
 class MainOneScreen extends StatelessWidget {
   const MainOneScreen({Key? key})
       : super(
@@ -16,10 +20,11 @@ class MainOneScreen extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         body: SizedBox(
-          width: double.maxFinite,
+          width: 500.v,
+          height: 120.v,
           child: Column(
             children: [
-              SizedBox(height: 5.v),
+              SizedBox(height: 0.v),
               _buildAppBar(context),
             ],
           ),
@@ -39,7 +44,7 @@ class MainOneScreen extends StatelessWidget {
               imagePath: ImageConstant.imgSmail2,
             ),
             Container(
-              height: 72.v,
+              height: 92.v,
               width: 116.h,
               margin: EdgeInsets.only(
                 left: 9.h,
@@ -49,6 +54,7 @@ class MainOneScreen extends StatelessWidget {
               child: Stack(
                 alignment: Alignment.bottomCenter,
                 children: [
+                  // 아이
                   AppbarTitleImage(
                     imagePath: ImageConstant.imgFont31,
                     margin: EdgeInsets.only(
@@ -57,9 +63,10 @@ class MainOneScreen extends StatelessWidget {
                       bottom: 25.v,
                     ),
                   ),
+                  // 나를 사랑하는 ~
                   AppbarTitleImage(
                     imagePath: ImageConstant.imgFont41,
-                    margin: EdgeInsets.only(top: 46.v),
+                    margin: EdgeInsets.only(right: 10.h, top: 40.v),
                   ),
                 ],
               ),

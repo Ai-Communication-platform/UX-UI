@@ -3,7 +3,9 @@ import 'package:eunbyul_s_application104/widgets/custom_outlined_button.dart';
 import 'package:flutter/material.dart';
 
 
-// [main page] 디자인 수정
+// [get started page] 디자인 수정
+
+
 class AndroidSmallOneScreen extends StatelessWidget {
   const AndroidSmallOneScreen({Key? key}) : super(key: key);
 
@@ -65,8 +67,8 @@ class AndroidSmallOneScreen extends StatelessWidget {
                                         // 이미지
                                         CustomImageView(
                                             imagePath: ImageConstant.imgSaly24,
-                                            height: 462.v,
-                                            width: 359.v,
+                                            height: 580.h,
+                                            width: 370.h,
                                             alignment: Alignment.center,
                                             margin: EdgeInsets.only(left: 1.v, top: 3.v)),
                                         CustomImageView(
@@ -75,7 +77,7 @@ class AndroidSmallOneScreen extends StatelessWidget {
                                             width: 89.v,
                                             alignment: Alignment.topLeft,
                                             margin: EdgeInsets.only(
-                                                left: 72.h, top: 63.v))
+                                                left: 61.h, top: 63.v))
                                       ])))
                         ]))))));
   }
