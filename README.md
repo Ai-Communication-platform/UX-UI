@@ -1,4 +1,4 @@
-[Applying] UX/UI design(Figma) -> Flutter 
+[Applying] UX/UI design(Figma) -> Flutter (Version_1)
 
 ---
                     
