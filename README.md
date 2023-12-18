@@ -1,6 +1,21 @@
-[Applying] UX/UI design(Figma) -> Flutter (Version_1)
+# UX/UI
+---
+## 00. Intro
+- This repository is for UX/UI development
+- The current project utilizes different versions of UX/UI design.
+- The corresponding UX/UI designs in the links are different versions of the designs, so feel free to use them to your liking.
+---
+<br>
+<br>
+
 
 ---
+## 01. Setting 
+#### [SDK Versions]
+- Dart SDK Version 2.18.0 or greater
+- Flutter SDK Version 3.3.0 or greater
+
+#### [Application structure]
                     
 ```
 .
@@ -18,4 +33,12 @@
     └── theme                       - It contains app theme and decoration classes
     └── widgets                     - It contains all custom widget classes
 ```
+---
+<br>
+<br>
+
+---
+## 02. API & UX/UI tools
+- Flutter-Dart API docs: https://api.flutter.dev/
+- UX/UI: https://www.figma.com/  <br>
 ---
